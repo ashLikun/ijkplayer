@@ -8,8 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ExoPlayer" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/lib-x86_64" />
+            <option value="$PROJECT_DIR$/default" />
+            <option value="$PROJECT_DIR$/java" />
+            <option value="$PROJECT_DIR$/lite" />
+            <option value="$PROJECT_DIR$/lite_hevc" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

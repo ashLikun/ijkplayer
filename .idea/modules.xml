@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CommonAdapter.iml" filepath="$PROJECT_DIR$/CommonAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExoPlayer/ExoPlayer.iml" filepath="$PROJECT_DIR$/ExoPlayer/ExoPlayer.iml" />
       <module fileurl="file://E:\studio_code\ashLikun\ijkplayer\adapter\adapter.iml" filepath="E:\studio_code\ashLikun\ijkplayer\adapter\adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://E:\studio_code\ashLikun\ijkplayer\databindadapter\databindadapter.iml" filepath="E:\studio_code\ashLikun\ijkplayer\databindadapter\databindadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/default/lib-arm64.iml" filepath="$PROJECT_DIR$/default/lib-arm64.iml" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayer.iml" filepath="$PROJECT_DIR$/ijkplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lite/lib-armv5.iml" filepath="$PROJECT_DIR$/lite/lib-armv5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lite_hevc/lib-armv7a.iml" filepath="$PROJECT_DIR$/lite_hevc/lib-armv7a.iml" />
     </modules>
   </component>
 </project>

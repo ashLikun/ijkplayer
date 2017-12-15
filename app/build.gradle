@@ -7,7 +7,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.ashlikun.adapter.simple"
+        applicationId "com.ashlikun.ijkplay.simple"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
@@ -30,4 +30,6 @@ dependencies {
     compile rootProject.ext.v4Version
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     //compile project(':adapter')
+    compile project(':java')
+    compile project(':lite')
 }

@@ -1,1 +1,1 @@
-include ':app', ':lib-x86_64'
+include ':app', ':lite_hevc', ':lite', ':default', ':java' ,':ExoPlayer'

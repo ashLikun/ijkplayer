@@ -1,0 +1,1 @@
+include ':app', ':lib-x86_64'

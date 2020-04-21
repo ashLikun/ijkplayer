@@ -1,18 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
-    dataBinding {
-        enabled true
-    }
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
         applicationId "com.ashlikun.ijkplay.simple"
-        minSdkVersion 14
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        multiDexEnabled false
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
     }
     buildTypes {
         release {
@@ -20,16 +20,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    //java8
+    compileOptions {
+        //定义生成的META-INF/library_release文件名 More than one file was found with OS independent path 'META-INF/library_release.kotlin_module'
+//        kotlinOptions.freeCompilerArgs += ['-module-name', 'com.ashlikun.utils']
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
+
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     //compile 'com.android.support:appcompat-v7:25.3.1'
-    compile rootProject.ext.designVersion
-    compile rootProject.ext.recycleview
-    compile rootProject.ext.v4Version
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation rootProject.ext.designVersion
+    implementation rootProject.ext.v4Version
+    implementation 'androidx.constraintlayout:constraintlayout:+'
     //compile project(':adapter')
-    compile project(':java')
-    compile project(':lite')
+    implementation project(':java')
+    implementation project(':lib_lite')
 }

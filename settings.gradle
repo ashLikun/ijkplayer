@@ -1,1 +1,2 @@
-include ':app', ':lite_hevc', ':lite', ':default', ':java' ,':ExoPlayer'
+include ':app', ':lib_lite_hevc',':lib_lite_hevc_https',
+ ':lib_lite', ':lib_lite_https',':lib_default',':lib_default_https', ':java'

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExoPlayer/ExoPlayer.iml" filepath="$PROJECT_DIR$/ExoPlayer/ExoPlayer.iml" />
-      <module fileurl="file://E:\studio_code\ashLikun\ijkplayer\adapter\adapter.iml" filepath="E:\studio_code\ashLikun\ijkplayer\adapter\adapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\studio_code\ashLikun\ijkplayer\databindadapter\databindadapter.iml" filepath="E:\studio_code\ashLikun\ijkplayer\databindadapter\databindadapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/default/lib-arm64.iml" filepath="$PROJECT_DIR$/default/lib-arm64.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ijkplayer.iml" filepath="$PROJECT_DIR$/ijkplayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lite/lib-armv5.iml" filepath="$PROJECT_DIR$/lite/lib-armv5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lite_hevc/lib-armv7a.iml" filepath="$PROJECT_DIR$/lite_hevc/lib-armv7a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ijkplayer/app" />
+      <module fileurl="file://$PROJECT_DIR$/default/default.iml" filepath="$PROJECT_DIR$/default/default.iml" group="ijkplayer/default" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer.iml" filepath="$PROJECT_DIR$/ijkplayer.iml" group="ijkplayer" />
+      <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" group="ijkplayer/java" />
+      <module fileurl="file://$PROJECT_DIR$/lib_default/lib_default.iml" filepath="$PROJECT_DIR$/lib_default/lib_default.iml" group="ijkplayer/lib_default" />
+      <module fileurl="file://$PROJECT_DIR$/lib_default_https/lib_default_https.iml" filepath="$PROJECT_DIR$/lib_default_https/lib_default_https.iml" group="ijkplayer/lib_default_https" />
+      <module fileurl="file://$PROJECT_DIR$/lib_lite/lib_lite.iml" filepath="$PROJECT_DIR$/lib_lite/lib_lite.iml" group="ijkplayer/lib_lite" />
+      <module fileurl="file://$PROJECT_DIR$/lib_lite_hevc/lib_lite_hevc.iml" filepath="$PROJECT_DIR$/lib_lite_hevc/lib_lite_hevc.iml" group="ijkplayer/lib_lite_hevc" />
+      <module fileurl="file://$PROJECT_DIR$/lib_lite_hevc_https/lib_lite_hevc_https.iml" filepath="$PROJECT_DIR$/lib_lite_hevc_https/lib_lite_hevc_https.iml" group="ijkplayer/lib_lite_hevc_https" />
+      <module fileurl="file://$PROJECT_DIR$/lib_lite_https/lib_lite_https.iml" filepath="$PROJECT_DIR$/lib_lite_https/lib_lite_https.iml" group="ijkplayer/lib_lite_https" />
+      <module fileurl="file://$PROJECT_DIR$/lite/lite.iml" filepath="$PROJECT_DIR$/lite/lite.iml" group="ijkplayer/lite" />
+      <module fileurl="file://$PROJECT_DIR$/lite_hevc/lite_hevc.iml" filepath="$PROJECT_DIR$/lite_hevc/lite_hevc.iml" group="ijkplayer/lite_hevc" />
     </modules>
   </component>
 </project>

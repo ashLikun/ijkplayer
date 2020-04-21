@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ExoPlayer" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/default" />
             <option value="$PROJECT_DIR$/java" />
-            <option value="$PROJECT_DIR$/lite" />
-            <option value="$PROJECT_DIR$/lite_hevc" />
+            <option value="$PROJECT_DIR$/lib_default" />
+            <option value="$PROJECT_DIR$/lib_default_https" />
+            <option value="$PROJECT_DIR$/lib_lite" />
+            <option value="$PROJECT_DIR$/lib_lite_hevc" />
+            <option value="$PROJECT_DIR$/lib_lite_hevc_https" />
+            <option value="$PROJECT_DIR$/lib_lite_https" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
